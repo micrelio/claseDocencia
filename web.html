@@ -1,0 +1,91 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="uno">
+        <h1>Hola caracola</h1>
+      </div>
+      <div class="dos"></div>
+      <div class="tres">
+        <p>En un lugar muy lejano…</p>
+
+        
+      </div>
+      <div class="cuatro">
+        <a class="giro" href="https://microdeveloper.es/">
+          <img src="./camela.png" alt="rebobina payo" />
+        </a>
+        <a href="https://microdeveloper.es/curriculum">
+          <img src="./boli.png" alt="rebobina payo" />
+        </a>
+      </div>
+      <div class="cinco">
+        
+        <img class="" src="./camela.png" alt="rebobina payo" />
+        <img class="" src="./boli.png" alt="rebobina payo" />
+      </div>
+    </div>
+
+    <style>
+      * {
+        margin: 0;
+
+      }
+      h1 {
+        color: deeppink;
+        font-size: 60px;
+      }
+      p {
+        font-size: 20px;
+        color: black;
+      }
+      .contenedor {
+        background-color: gray;
+        height: auto;
+      }
+      .uno {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        height: 120px;
+      }
+      .dos {
+        background-color: yellow;
+        width: 50%;
+        height: 50px;
+      }
+      .tres {
+        background-color: chocolate;
+        padding: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+      .cuatro {
+        margin: 50px;
+        padding: 20px;
+        background-color: lightblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .cinco {
+        padding: 50px;
+        background-color: coral;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+      .giro {
+        transform: rotate(45deg);
+      }
+    </style>
+  </body>
+</html>
